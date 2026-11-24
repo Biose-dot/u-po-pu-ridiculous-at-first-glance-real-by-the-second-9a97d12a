@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [Ridiculous at First Glance, Real by the Second](https://make.fun/c/u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a).
 
-One sentence, at most 200 characters, pitching a startup that sounds absurd until the business logic lands: the odd product, who pays, and why it holds together.
+One sentence, at most 200 characters, pitching a startup that sounds absurd until the business logic lands: bottled silence, sold monthly to open-plan offices.
 
 `main.py` (Python 3) writes the entry to `/output/entry.txt`:
 
-> We rent professional criers to weep at strangers' funerals, and funeral homes pay per tear because grief sells sympathy.
+> We sell bottled silence harvested from empty libraries to open-plan offices, and burned-out managers pay monthly so their teams can hear themselves think.
 
 Run it locally with:
 
