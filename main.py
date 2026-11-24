@@ -3,11 +3,11 @@
 
 Writes the entry text to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 
-Absurd on first glance, sound on the second: a real product, a real payer, and a real reason the money flows — quiet as a subscription.
+Absurd on first glance, sound on the second: a real product, a real payer, and a real reason the money flows — silence as a subscription.
 """
 import os
 
-ENTRY = 'We sell bottled quiet harvested from empty libraries to open-plan offices, and exhausted managers pay monthly so their teams can hear themselves think.'
+ENTRY = 'We sell bottled silence harvested from empty libraries to open-plan offices, and burned-out managers pay monthly so their teams can hear themselves think.'
 
 
 def main() -> None:
