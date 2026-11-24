@@ -1,23 +1,19 @@
-#!/usr/bin/env python3
-"""Ridiculous at First Glance, Real by the Second — make.fun entry.
+"""Writes the bounty entry text to entry.txt.
 
-Writes the entry text to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
-
-Absurd on first glance, sound on the second: a real product, a real payer, and a real reason the money flows — silence as a subscription.
+The output directory comes from MAKEFUN_OUTPUT_DIR (default /output).
+The entry is written exactly as-is, with no trailing newline.
 """
+
 import os
 
-ENTRY = 'We sell bottled silence harvested from empty libraries to open-plan offices, and burned-out managers pay monthly so their teams can hear themselves think.'
+ENTRY = "We sell premium bottled air from haunted houses to nervous landlords who pay monthly so their tenants can brag about breathing ghost-free oxygen."
 
-
-def main() -> None:
+def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
+    entry_path = os.path.join(out_dir, "entry.txt")
+    with open(entry_path, "w", encoding="utf-8") as f:
         f.write(ENTRY)
-    print(f"wrote {len(ENTRY)} chars to {path}")
-
 
 if __name__ == "__main__":
     main()
